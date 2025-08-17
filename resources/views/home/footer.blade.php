@@ -7,25 +7,25 @@
             </div> --}}
             <div class="location_main">
                <div class="call_text"><img src="images/call-icon.png"></div>
-               <div class="call_text"><a href="#">Call +254702563381</a></div>
+               <div class="call_text"><a href="#">Call +254727088894</a></div>
                <div class="call_text"><img src="images/mail-icon.png"></div>
                <div class="call_text"><a href="#">trevormusaa@ymail.com</a></div>
             </div>
-            <div class="social_icon">
+            {{-- <div class="social_icon">
                <ul>
                   <li><a href="#"><img src="images/fb-icon.png"></a></li>
                   <li><a href="#"><img src="images/twitter-icon.png"></a></li>
                   <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
                   <li><a href="#"><img src="images/instagram-icon.png"></a></li>
                </ul>
-            </div>
+            </div> --}}
          </div>
       </div>
       <!-- footer section end -->
       <!-- copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">{{date('Y')}} All Rights Reserved. Developed by Musaa. T. F</a></p>
+            <p class="copyright_text">{{date('Y')}} All Rights Reserved. Developed by M. T. F</a></p>
          </div>
       </div>
       <!-- copyright section end -->
@@ -33,12 +33,14 @@
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+      {{-- <script src="js/jquery-3.0.0.min.js"></script> --}}
       <script src="js/plugin.js"></script>
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <!-- javascript --> 
-      <script src="js/owl.carousel.js"></script>
-      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>    
-   
+      {{-- <script src="js/owl.carousel.js"></script> --}}
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>

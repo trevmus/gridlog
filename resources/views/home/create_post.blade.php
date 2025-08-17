@@ -31,7 +31,7 @@
             flex-direction: column;
          }
          textarea {
-            width: 100%;
+            width: 150%;
             max-width: 500px;
             padding: 10px;
             font-size: 14px;

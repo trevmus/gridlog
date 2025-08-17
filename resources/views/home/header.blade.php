@@ -84,11 +84,13 @@
                                         DASHBOARD
                                     </a>
                                 </li>
+                                
                             @else
                                 <a href="{{ route('login') }}"
                                     class="inline-block px-5 py-1.5 dark:text-[#ededec00] text-[#ccccc0] border-transparent hover:border-[#19140035] dark:hover:border-[#3E3E3A] rounded-sm text-sm leading-normal">
                                     LOGIN
                                 </a>
+                                
 
                                 @if (Route::has('register'))
                                     <a href="{{ route('register') }}"

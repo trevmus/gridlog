@@ -1,7 +1,16 @@
 <div class="services_section layout_padding">
     <div class="container">
+        <form action="{{ url('search') }}" method="get" class="form-inline" style="float: right; padding:10px;">
+
+            <input class="form-control" type="search" name="search" placeholder="Search">
+
+            <input type="submit" value="Search" class= "btn btn-success">
+
+        </form>
         <h1 class="services_taital">Blog Post </h1>
-        <p class="services_text">A page where built environment professionals share notes and post articles</p>
+        <p class="services_text">A place to share on sustainable ways to make our built & natural environments survive
+            and thrive past our time</p>
+
         <div class="services_section_2">
             <div class="row">
 

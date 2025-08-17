@@ -67,7 +67,7 @@ class HomeController extends Controller
         $post->user_id = $userid;
         $post->name = $username;
         $post->usertype = $usertype;
-        $post->post_status = 'active'; // Set the post status to 'active' by default
+        $post->post_status = 'pending'; // Set the post status to 'active' by default
         // Handle image upload
 
 
@@ -160,5 +160,15 @@ class HomeController extends Controller
         $content = view('home.blogsection', compact('post'))->render();
         return response($content)
             ->header('Cache-Control', 'private, max-age=3600, must-revalidate');
+    }
+
+        public function search(Request $request)
+    {
+
+        $search = $request->search;
+
+        $post = post::where('title', 'Like', '%' . $search . '%')->get();
+
+        return view('home.homepage', compact('post'));
     }
 }

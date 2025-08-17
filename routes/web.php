@@ -17,6 +17,8 @@ Route::get('/blogsection', [HomeController::class, 'blogsection']);
 
 Route::get('/post_details/{id}',[HomeController::class, 'post_details']);
 
+Route::get('/search', [HomeController::class, 'search']);
+
 
     // Route::get('/home', [HomeController::class, 'home'])->name('homepage');
 
